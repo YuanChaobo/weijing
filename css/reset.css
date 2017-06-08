@@ -16,7 +16,7 @@ a{
 img{
 	border:none;
 }
-ul,li,dl,dt,dd{
+ul,ol,li,dl,dt,dd{
 	list-style: none;
 }
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary{
@@ -31,6 +31,4 @@ h1,h2,h3,h4,h5,h6{
     color: #333;
     -webkit-font-smoothing: antialiased;
 }
-.icon{
-		background:url('http://www.dpfile.com/t/cssnew/newhome/sprites/global.28b8ff1175abaac1bb77e0874cb5f8aa.png');
-}
+
