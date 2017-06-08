@@ -1,0 +1,288 @@
+@charset="UTF-8";
+
+body{
+	background: #202020;
+}
+#shouye #header{
+	width: 100%;
+	background-color: #3e3e3e;
+}
+#shouye #header>div{
+	width: 1400px;
+	height: 66px;
+	line-height: 66px;
+	margin:0 auto;
+	font-size: 12px;
+}
+#shouye #header .logo{
+	width: 108px;
+	height: 43px;
+	float: left;
+	margin-left: 217px;
+	margin-top: 10px;
+}
+#shouye #header .logo a{
+	display: block;
+	height: 100%;
+	background: url('../images/a.png') -23px -7px  no-repeat;
+	background-size: 150px 60px;
+}
+#shouye #header #links{
+	float: right;
+	margin-right: 278px;
+}
+#shouye #header #links .link-lianjie{
+	color: #fff;
+	width: 125px;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+}
+#shouye #header #links .link-lianjie span{
+	display: inline-block;
+	width: 22px;
+	height: 20px;
+	vertical-align: -5px;
+}
+#shouye #header #links .weibo span{
+	background: url('../images/weibo.jpg') left no-repeat;
+	background-size: contain;
+
+}
+#shouye #header #links .weixin span{
+	background: url('../images/weixin.jpg') 4px 2px  no-repeat;
+} 
+
+#shouye #header #links .link-lianjie .erweima{
+	display: none;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 30px;
+	left: 19px;
+	background: url('../images/erweima.jpg');
+	background-size: contain;
+	z-index: 1000;
+}
+#shouye #header #links .link-lianjie:hover{
+	text-decoration: underline;
+	color:#d10277;
+}
+#shouye #header #links .weixin:hover .erweima{
+	display: block;
+}
+
+#shouye #nav{
+	width: 100%;
+	height: 38px;
+	background:#fff;
+}
+#shouye #nav ul{
+	width: 1400px;
+	margin: 0 auto;
+	line-height: 38px;
+	padding-left: 210px;
+}
+#shouye #nav ul li{
+	float: left;
+	height: 38px;
+	overflow: hidden;
+	width: 158px;
+	border-right: 2px solid #000000;
+	text-align: right;
+}
+#shouye #nav ul li:last-child{
+	border:0 none;
+	padding-right: 2px;
+}
+#shouye #nav ul li a{
+	height: 38px;
+	display: block;
+	color: #071233;
+	font-weight: 700;
+}
+/*#shouye #nav ul li:hover a{
+	background: #00abf0;
+	color: #fff;
+}*/
+
+#shouye  #main {
+	width: 1400px;
+	margin:0 auto;
+	overflow: hidden;
+}
+#shouye  #main .main-nav{
+	position: relative;
+}
+#shouye #main .main-nav .swiper-pagination{
+	bottom: 45px;
+}
+#shouye  #main .main-nav .swiper-container .swiper-slide img{
+	width: 100%;
+	height: 500px;
+}
+
+#shouye  #main .main-img{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+#shouye  #main .navlist{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 30px;
+	background:url('../images/bannerbg.png') left no-repeat;
+	z-index: 100;
+	zoom:1;
+
+}
+#shouye  #main .navlist ul{
+	margin-left: 130px;
+}
+#shouye  #main .navlist ul li{
+	float: left;
+	line-height: 30px;
+	padding:0 13px 0 12px;
+}
+#shouye  #main .navlist ul li a{
+	color: #fff;
+	font-size: 14px;
+	font-family: "FZLanTingHeiS-B-GB";
+}
+#shouye  #main .navlist ul li a img{
+	vertical-align: -2px;
+}
+#shouye  #main .navlist ul li .zt{
+	font-family: "Futura BT";
+}
+
+#shouye  #main .main-jianjie{
+	width: 100%;
+	margin-left: 40px;
+	margin-top: 50px;
+}
+#shouye  #main .main-jianjie .mainjianshen-fd{
+	float: left;
+}
+#shouye  #main .main-jianjie .mainjianshen-fd a{
+	float: left;
+	display: inline-block;
+	margin-right: 18px;
+}
+#shouye  #main .main-jianjie .main-news{
+	float: left;
+	margin-left: 90px;
+	color: #fff;
+	width: 358px;
+}
+#shouye  #main .main-jianjie .main-news h5{
+	color: #eceaea;
+	font-size: 16px;
+    margin-bottom: 10px;
+    font-family: "微软雅黑";
+    font-weight: 400;
+
+}
+#shouye  #main .main-jianjie .main-news h5 span{
+	font-size: 15px;
+	color:#7d7b7b;
+}
+#shouye  #main .main-jianjie .main-news h5 span{
+	font-weight: 400;
+}
+#shouye  #main .main-jianjie .main-news p{
+	padding-left: 10px;
+	font-size: 12px;
+	position: relative;
+	line-height: 19px;
+}
+#shouye  #main .main-jianjie .main-news p a{
+	color: #b9b9b9;
+	display: inline-block;
+	max-width: 260px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+#shouye  #main .main-jianjie .main-news p a:hover{
+	color: #d10277;
+}
+#shouye  #main .main-jianjie .main-news p i{
+	position: absolute;
+	top: 7px;
+	left: 0;
+	border-left: 3px solid  #ffde00;
+	border-top: 3px solid transparent;
+	border-bottom: 3px solid transparent;
+	border-right: 0 none;
+}
+#shouye  #main .main-jianjie .main-news p span{
+	float:right;
+	    color: #b9b9b9;
+}
+#shouye  .color-blue{
+	color: #00e86d !important;
+}
+
+
+#shouye #footer{
+	width: 100%;
+	height: 33px;
+	line-height: 33px;
+	background-color:#000;
+	margin-top: 30px;
+}
+#shouye #footer .footer-wj{
+	width: 1400px;
+	margin:0 auto;
+	font-size: 12px;
+}
+#shouye #footer .footer-wj .footer-gywj{
+	float: left;
+	overflow: hidden;
+}
+#shouye #footer .footer-wj ul{
+	margin-left: 177px;
+	float: left;
+}
+#shouye #footer .footer-wj a{
+	color: #bbbbbb;
+}
+#shouye #footer .footer-wj li{
+	float: left;
+}
+#shouye #footer .footer-wj li a{
+	display: inline-block;
+	padding:0 6px;
+}
+#shouye #footer .footer-wj  a:hover{
+	text-decoration: underline;
+}
+#shouye #footer .footer-wj li i{
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	font-size: 0;
+	overflow: hidden;
+	border-radius: 50%;
+	background-color: #707070;
+	vertical-align: 2px;
+	margin-right: -4px;
+}
+
+#shouye #footer .footer-wj .beizhu{
+	margin-left: 11px;
+}
+
+#shouye #footer .footer-wj  .site{
+	float: right;
+	color: #bbbbbb;
+	margin-right:317px;
+}
+#shouye #footer .footer-wj  .site span{
+	margin-left: 10px;
+}
